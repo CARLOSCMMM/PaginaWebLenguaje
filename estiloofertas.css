@@ -1,0 +1,28 @@
+@import url('StiloInicio.css');
+
+.promociones ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 2em;
+    margin-top: 20px;
+}
+
+.promociones li::before {
+    content: "🔥 ";
+    color: red;
+}
+
+.promociones img {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+video {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
